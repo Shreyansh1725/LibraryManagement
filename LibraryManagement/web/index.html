@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to the Library</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f4; }
+        .container { text-align: center; background-color: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        h1 { margin-bottom: 30px; }
+        .nav-button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.2em;
+            text-decoration: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+        }
+        .student-btn { background-color: #007bff; }
+        .admin-btn { background-color: #28a745; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Library Management System</h1>
+        
+        <a href="student-login-form.jsp" class="nav-button student-btn">
+            Student Login
+        </a>
+        
+        <a href="add-book-form.jsp" class="nav-button admin-btn">
+            Librarian Section
+        </a>
+    </div>
+
+</body>
+</html>
